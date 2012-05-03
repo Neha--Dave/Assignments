@@ -1,0 +1,141 @@
+<html>
+<head>
+    <title>Form Input Types</title>
+</head>
+<body>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0
+    <input type="range" name="a" value="50" />100 +<input type="number" name="b" value="50" />
+    =<output name="x" for="a b"></output>
+    </form>
+    <form action="#">
+    <table>
+        <tr>
+            <td>
+                Select your favorite color:
+            </td>
+            <td>
+                <input type="color" name="favcolor" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Birthday:
+            </td>
+            <td>
+                <input type="date" name="bday" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Birthday (date and time):
+            </td>
+            <td>
+                <input type="datetime" name="bdaytime" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Birthday (date and time):
+            </td>
+            <td>
+                <input type="datetime-local" name="bdaytime" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                E-mail:
+            </td>
+            <td>
+                <input type="email" name="usremail" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Birthday (month and year):
+            </td>
+            <td>
+                <input type="month" name="bdaymonth" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Quantity (between 1 and 5):
+            </td>
+            <td>
+                <input type="number" name="quantity" min="1" max="5" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Search Google:
+            </td>
+            <td>
+                <input type="search" name="googlesearch" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Telephone:
+            </td>
+            <td>
+                <input type="tel" name="usrtel" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Select a time:
+            </td>
+            <td>
+                <input type="time" name="usr_time" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Add your homepage:
+            </td>
+            <td>
+                <input type="url" name="homepage" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Select a week:
+            </td>
+            <td>
+                <input type="week" name="week_year" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Select a browser:
+            </td>
+            <td>
+                <input list="browsers" />
+                <datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Username:
+            </td>
+            <td>
+                <input type="text" name="usr_name" />
+            </td>
+            <td>
+                Encryption:
+            </td>
+            <td>
+                <keygen name="security" />
+            </td>
+    </table>
+    <input type="submit" />
+    </form>
+</body>
+</html>
